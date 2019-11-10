@@ -1,0 +1,119 @@
+/* BOA PRÁTICA USAR O VALOR BORDER-BOX PARA BOX-SIZING, POIS JÁ SOMA AUTOMATICAMENTE O VALOR DE PADDING E BORDER QUANDO HOUVER */
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0!important;
+    background-color: #f4f4f4;
+    overflow: hidden;
+  }
+  
+  .navbar {
+    background-color: #d1d1d1;
+    border-bottom: 1px solid #8000FF;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .headersite {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .branding,
+  .navlist {
+    margin: auto 0;
+  }
+  
+  @media (max-width: 768px) {
+    .branding h1 {
+      font-size: 1.5em;
+    }
+  }
+  
+  
+  .branding span {
+    color: #8000FF;
+  }
+  
+  .linklist {
+    display: flex;
+  }
+  
+  .linklist li {
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style-type: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+  }
+  
+  .home {
+    color: #8000FF;
+  }
+  
+  .portfolio {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    display: flex;
+  }
+  
+  .content {
+    width: 80%;
+    line-height: 30px;
+  }
+  
+  .content h1 {
+    color: #8000FF;
+  }
+  
+
+  .register {
+    background-color: #8000FF;
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    position: absolute;
+    bottom: 7.2vh;
+  }
+  
+  .contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px auto;
+  }
+  
+  .contact h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .footer {
+    height: 70px;
+    background-color: #d1d1d1;
+    padding: 25px;
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+  }
+  .footer p {
+    text-align: center;
+  }
+  
+  .minimenu {
+    display: none;
+  }
+  
+  
